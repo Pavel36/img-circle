@@ -10,7 +10,7 @@ const ColoredUserpic = (props) => {
                 width:`${props.size}px`, 
                 height:`${props.size}px`, 
                 position: 'relative', 
-                background: `linear-gradient(to right, ${color[0]}, ${color[1]})`
+                background: `linear-gradient(to right, ${color})`
             }}>
                 <img 
                     height={props.size-2*(props.colorWidth+props.margin)} 

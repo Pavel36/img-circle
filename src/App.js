@@ -9,7 +9,7 @@ function App() {
       margin={4}
       backgroundColor='red'
       colors={['green', 'blue']}
-      hoverColors={['blue', 'green']}
+      hoverColors={['blue', 'green', 'purple']}
       colorWidth={6}
     />
   )
